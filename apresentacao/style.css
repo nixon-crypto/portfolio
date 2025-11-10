@@ -115,6 +115,7 @@ ul li {
   background-color: var(--surface-color);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+  cursor: pointer;
 }
 
 ul li:hover {
@@ -126,6 +127,7 @@ a {
   text-decoration: none;
   color: var(--text-color);
   font-weight: bolder;
+  display: block;
 }
 
 #social-link {
