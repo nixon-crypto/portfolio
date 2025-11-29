@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(253, 79, 79);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+    text-shadow: 1px 6px 6px black;
+}
+
+header h1{
+    width: 100%;
+    text-align: center;
+}
+
+header input{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 60%;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+header span{
+    padding-left: 10px;
+    font-size: 35px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+    color: rgb(255, 254, 254);
+}
+
+header span:hover{
+    transform:scale(1.2) ;
+}
+
+ul li{
+    font-size: 18px;
+    padding: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    background-color: rgb(212, 211, 211);
+    list-style: none;
+}
+
+ul li .close{
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+ul li .close:hover{
+    transform: scale(1.2);
+}
+
+#tarefa{
+    cursor: pointer;
+    transition:0.3s ease;
+    outline: none;
+}
+
+#tarefa:hover{
+    transform: scale(1.03); 
+}
+
+#lista{
+    cursor:pointer;
+}
