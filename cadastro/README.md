@@ -20,7 +20,7 @@ Este projeto foi desenvolvido com o objetivo de praticar conceitos de componenti
 
 Clone o repositório
 
-git clone " "
+git clone https://github.com/nixon-crypto/portfolio.git
 
 Entre na pasta "Cadastro".
 
