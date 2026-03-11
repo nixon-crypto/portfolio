@@ -8,7 +8,6 @@ const prisma = new PrismaClient();
 const app = express();
 app.use(express.json());
 app.use(cors());
-// const users = [];
 
 router.get("/", async (req, res) => {
   let users = [];
