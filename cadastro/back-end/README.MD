@@ -11,20 +11,6 @@ A aplicação permite criar, listar, alterar e remover usuários armazenados em 
 -MongoDB
 -JavaScript
 
-# Estrutura do Projeto
-
-API
-│
-├── prisma
-│   └── schema.prisma
-│
-├── routes
-│   └── userRoutes.js
-│
-├── server.js
-├── package.json
-└── .env
-
 ## Instalação
 
 Clone o repositório git clone ""
