@@ -36,7 +36,7 @@ Crie um arquivo ".env" na raiz do projeto e adicione a string de conexão com o 
 - npx prisma db push
 
 ## Iniciar o servidor:
--node --watch server.js
+-npm start
 
 # Endpoints da API
 
