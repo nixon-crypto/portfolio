@@ -1,7 +1,9 @@
+/* eslint-disable react-hooks/set-state-in-effect */
 import { useEffect, useState, useRef } from "react";
 import "./style.css";
 import Trash from "../../assets/trash.svg";
 import api from "../../services/api";
+import DataNascimento from "../../components/dataNascimento";
 
 function Home() {
   const [users, setUsers] = useState([]);
@@ -28,14 +30,21 @@ function Home() {
     getUsers();
   }
 
-  useEffect(() => {
+  useEffect(()  => {
     getUsers();
+
   }, []);
 
   return (
     <div className="container">
       <form action="">
         <h1>Cadastro de Usuários</h1>
+        <input name="Número de celular ou email" type="text" placeholder="Número de celular ou email" />
+        <input name="Senha" type="text" placeholder="Senha" />
+        <div className="dataNascimento">
+        <h3>Data de Nascimento</h3>
+        <DataNascimento />
+        </div>
         <input name="nome" type="text" placeholder="Nome" ref={inputName} />
         <input name="idade" type="number" placeholder="Idade" ref={inputAge} />
         <input name="email" type="email" placeholder="Email" ref={inputEmail} />
